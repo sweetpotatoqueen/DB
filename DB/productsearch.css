@@ -1,0 +1,67 @@
+html{
+  font-family: 'Gowun Dodum', sans-serif;
+}
+.search {
+    position: relative;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+input {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #bbb;
+    margin: 10px 0;
+    padding: 10px 12px;
+}
+.fa-search {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    margin: 0;
+}
+.box {
+    display: inline;
+    width: auto;
+    border-radius: 0;
+    margin: auto;
+    text-align: center;
+    color: #bbb;
+}
+button {
+  margin-left: 700px;
+}
+
+.w-btn {
+    position: relative;
+    border: none;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+.w-btn-outline {
+    position: relative;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+.w-btn-indigo {
+    background-color: aliceblue;
+    color: #1e6b7b;
+}
+
+.w-btn-indigo-outline {
+    border: 3px solid aliceblue;
+    color: #1e6b7b;
+}

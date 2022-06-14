@@ -1,0 +1,41 @@
+html, body{
+  margin:0;
+  padding:0;
+}
+h1, p{
+  margin:0;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+#main{
+  background:url("https://pixabay.com/get/gbd976483d28e0b0a84db9737d4977304bc75a521e7dc149732ad09f0d2b89cf25a42f9a540fbf426e88bf87cf9ce56a7847f062366cb970ef378476832eceeacb71b9679abcbb27ea2c90317aa2a8775_1920.jpg")no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100vw;
+  height:100vh;
+  font-family: 'Gowun Dodum', sans-serif;
+}
+#contents{
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  width:100%;
+  color:white;
+  text-align: center;
+}
+#contents h1{
+  font-size:70px;
+}
+#contents p{
+  font-size:23px;
+}
+#contents a{
+  display: inline-block;
+  border:2px solid white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-weight: bold;
+}
